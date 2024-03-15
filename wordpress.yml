@@ -1,0 +1,9 @@
+---
+- name: Install and configure WordPress
+  hosts: localhost
+
+  roles:
+    - geerlingguy.apache
+    - geerlingguy.mysql
+    - geerlingguy.php
+    - inmotionhosting.wordpress
